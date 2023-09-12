@@ -13,7 +13,7 @@ description: >
 # Build settings
 
 theme: minima
-skin: auto
+  - skin: auto
 
 plugins:
   - jekyll-feed
