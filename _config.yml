@@ -10,10 +10,6 @@ description: >
   in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
-minima:
-  date_format: "%b %-d, %Y"
-  skin: auto
-
 # Build settings
 theme: minima
 
@@ -24,6 +20,8 @@ plugins:
 # Theme-specific settings
 
 minima:
+  date_format: "%b %-d, %Y"
+  skin: auto
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
